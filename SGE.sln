@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{80
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SEG_DB", "SEG_DB\SEG_DB.sqlproj", "{9A407ED3-7AEA-41C8-BB7B-EA50EE886284}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE_Conexion", "SGE_Conexion\SGE_Conexion.csproj", "{632EF6A7-3555-4353-8CBC-6EF4C634AB54}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE_Datos", "SGE_Datos\SGE_Datos.csproj", "{F3FF6C40-82B3-4A18-9365-4C0D3B68A3D1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE_Names", "SGE_Names\SGE_Names.csproj", "{1F8ABB95-3943-448D-B726-3403EC42A199}"
@@ -17,7 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE_Negocio", "SGE_Negocio\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE_Presentacion", "SGE_Presentacion\SGE_Presentacion.csproj", "{D87A4243-6BBD-4103-9D0D-49D3B1657024}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{DB0137DC-C9DE-4A68-9077-4EA358E46D69}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C03ABA47-5A07-4133-B6C7-F257B51DBDD7}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Josvany_G\Desktop\ncalc\Evaluant.Calculator.Play\bin\Debug\NCalc.dll = C:\Users\Josvany_G\Desktop\ncalc\Evaluant.Calculator.Play\bin\Debug\NCalc.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE_Entity", "SGE_Entity\SGE_Entity.csproj", "{462FF612-ECE8-4551-BAC0-9A25E485FBFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +34,6 @@ Global
 		{9A407ED3-7AEA-41C8-BB7B-EA50EE886284}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A407ED3-7AEA-41C8-BB7B-EA50EE886284}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A407ED3-7AEA-41C8-BB7B-EA50EE886284}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{632EF6A7-3555-4353-8CBC-6EF4C634AB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{632EF6A7-3555-4353-8CBC-6EF4C634AB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{632EF6A7-3555-4353-8CBC-6EF4C634AB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{632EF6A7-3555-4353-8CBC-6EF4C634AB54}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3FF6C40-82B3-4A18-9365-4C0D3B68A3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3FF6C40-82B3-4A18-9365-4C0D3B68A3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3FF6C40-82B3-4A18-9365-4C0D3B68A3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +50,10 @@ Global
 		{D87A4243-6BBD-4103-9D0D-49D3B1657024}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D87A4243-6BBD-4103-9D0D-49D3B1657024}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D87A4243-6BBD-4103-9D0D-49D3B1657024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462FF612-ECE8-4551-BAC0-9A25E485FBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462FF612-ECE8-4551-BAC0-9A25E485FBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462FF612-ECE8-4551-BAC0-9A25E485FBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462FF612-ECE8-4551-BAC0-9A25E485FBFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

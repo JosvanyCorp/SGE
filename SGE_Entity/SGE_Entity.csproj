@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B9D25D25-54FE-41E0-B7BD-6D0B51EF3936}</ProjectGuid>
+    <ProjectGuid>{462FF612-ECE8-4551-BAC0-9A25E485FBFD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SGE_Negocio</RootNamespace>
-    <AssemblyName>SGE_Negocio</AssemblyName>
+    <RootNamespace>SGE_Entity</RootNamespace>
+    <AssemblyName>SGE_Entity</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,20 +42,6 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SGE_Datos\SGE_Datos.csproj">
-      <Project>{f3ff6c40-82b3-4a18-9365-4c0d3b68a3d1}</Project>
-      <Name>SGE_Datos</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SGE_Entity\SGE_Entity.csproj">
-      <Project>{462ff612-ece8-4551-bac0-9a25e485fbfd}</Project>
-      <Name>SGE_Entity</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SGE_Names\SGE_Names.csproj">
-      <Project>{1f8abb95-3943-448d-b726-3403ec42a199}</Project>
-      <Name>SGE_Names</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
