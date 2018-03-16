@@ -126,5 +126,9 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
+    <Build Include="dbo\Tables\TBL_TYPE_MANAGER.sql" />
+    <Build Include="dbo\Tables\TBL_MANAGER.sql" />
+    <Build Include="dbo\Tables\TBL_CONFIGURATION.sql" />
+    <Build Include="dbo\Tables\TBL_GENERAL_INFORMATION.sql" />
   </ItemGroup>
 </Project>
