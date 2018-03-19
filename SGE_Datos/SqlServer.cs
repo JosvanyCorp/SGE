@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
+using System.Collections;
 
 namespace SGE_Conexion
 {
@@ -18,7 +19,7 @@ namespace SGE_Conexion
         * como HashTable para la clase, con el modificador Shared (compartida) que permite 
         * persistir la misma entre creaciones de objetos
         */
-        static readonly System.Collections.Hashtable ColComandos = new System.Collections.Hashtable();
+        static readonly Hashtable ColComandos = new Hashtable();
 
 
         public string CadenaLocal { get; set; }
@@ -90,20 +91,27 @@ namespace SGE_Conexion
          */
         protected override IDbCommand Comando(string procedimientoAlmacenado)
         {
+            if (string.IsNullOrEmpty(procedimientoAlmacenado))
+            {
+                throw new ArgumentException("message", paramName: nameof(procedimientoAlmacenado));
+            }
+
             SqlCommand com;
-            if (ColComandos.Contains(procedimientoAlmacenado))
+            if (ColComandos.Contains(key: procedimientoAlmacenado))
+            {
                 com = (SqlCommand)ColComandos[procedimientoAlmacenado];
+            }
             else
             {
-                var con2 = new SqlConnection(CadenaConexion);
-                con2.Open();
-                com = new SqlCommand(procedimientoAlmacenado, con2)
+                var con = new SqlConnection(CadenaConexion);
+                con.Open();
+                com = new SqlCommand(procedimientoAlmacenado, con)
                 {
                     CommandType = CommandType.StoredProcedure
                 };
                 SqlCommandBuilder.DeriveParameters(com);
-                con2.Close();
-                con2.Dispose();
+                con.Close();
+                con.Dispose();
                 ColComandos.Add(procedimientoAlmacenado, com);
             }//end else
             com.Connection = (SqlConnection)Conexion;
@@ -181,10 +189,5 @@ namespace SGE_Conexion
             Usuario = usuario;
             Password = password;
         }// end DatosSQLServer
-
-        //public SqlServer(string ConexionLocal)
-        //{
-        //    CadenaConexion = ConexionLocal;
-        //}
     }
 }

@@ -130,5 +130,6 @@
     <Build Include="dbo\Tables\TBL_MANAGER.sql" />
     <Build Include="dbo\Tables\TBL_CONFIGURATION.sql" />
     <Build Include="dbo\Tables\TBL_GENERAL_INFORMATION.sql" />
+    <Build Include="dbo\Tables\TBL_TYPE_PERSONS.sql" />
   </ItemGroup>
 </Project>

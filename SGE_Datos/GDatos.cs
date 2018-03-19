@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace SGE_Conexion
 {
-    public abstract class GDatos
+    public abstract class GDatos 
     {
         #region "Declaración de Variables"
 
@@ -382,6 +382,5 @@ namespace SGE_Conexion
         }// end AbortarTransaccion
 
         #endregion
-
     }
 }
