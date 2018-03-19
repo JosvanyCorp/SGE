@@ -132,5 +132,7 @@
     <Build Include="dbo\Tables\TBL_PERSONS.sql" />
     <Build Include="dbo\Tables\TBL_TYPE_PERSONS.sql" />
     <Build Include="dbo\Tables\TBL_GENDER.sql" />
+    <Build Include="dbo\Tables\TBL_DEPARMENT.sql" />
+    <Build Include="dbo\Tables\TBL_MUNICIPALITY.sql" />
   </ItemGroup>
 </Project>
