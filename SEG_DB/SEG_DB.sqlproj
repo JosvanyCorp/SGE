@@ -142,5 +142,10 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
+    <Build Include="dbo\Tables\TBL_STUDENTS.sql" />
+    <Build Include="dbo\Tables\TBL_TYPE_SUBJECT.sql" />
+    <Build Include="dbo\Tables\TBL_SUBJECTS.sql" />
+    <Build Include="dbo\Tables\TBL_CATEGORY_SUBJECTS.sql" />
+    <Build Include="dbo\Tables\TBL_RELATIONSHIP.sql" />
   </ItemGroup>
 </Project>
