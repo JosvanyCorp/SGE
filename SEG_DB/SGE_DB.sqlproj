@@ -147,5 +147,9 @@
     <Build Include="dbo\Tables\TBL_SUBJECTS.sql" />
     <Build Include="dbo\Tables\TBL_CATEGORY_SUBJECTS.sql" />
     <Build Include="dbo\Tables\TBL_RELATIONSHIP.sql" />
+    <Build Include="dbo\Tables\TBL_TYPE_TURN.sql" />
+    <Build Include="dbo\Tables\TBL_ACADEMIC_LEVELS.sql" />
+    <Build Include="dbo\Tables\TBL_SCHOOL_GRADE.sql" />
+    <Build Include="dbo\Tables\TBL_LEVELS_TAUGHT.sql" />
   </ItemGroup>
 </Project>
