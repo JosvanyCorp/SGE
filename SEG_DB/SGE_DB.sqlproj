@@ -155,10 +155,12 @@
     <Build Include="dbo\Tables\TBL_SECTION.sql" />
     <Build Include="dbo\Tables\TBL_GROUP.sql" />
     <Build Include="dbo\Tables\TBL_STATUS_STUDENT.sql" />
-    <Build Include="dbo\Tables\TBL_STUDY_PLAN.sql" />
     <Build Include="dbo\Tables\TBL_SCHOOL_YEAR.sql" />
     <Build Include="dbo\Tables\TBL_RELATIONSHIP_TEACHER_SUBJETS.sql">
       <AnsiNulls>Off</AnsiNulls>
     </Build>
+    <Build Include="dbo\Tables\TBL_STUDY_PLANS.sql" />
+    <Build Include="dbo\Tables\TBL_RELATION_SHIP_PLANS_SUBJETS.sql" />
+    <Build Include="dbo\Tables\TBL_RELATIONSHIP_SUBJECTS_BY_YEAR.sql" />
   </ItemGroup>
 </Project>
