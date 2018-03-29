@@ -162,5 +162,6 @@
     <Build Include="dbo\Tables\TBL_STUDY_PLANS.sql" />
     <Build Include="dbo\Tables\TBL_RELATION_SHIP_PLANS_SUBJETS.sql" />
     <Build Include="dbo\Tables\TBL_RELATIONSHIP_SUBJECTS_BY_YEAR.sql" />
+    <Build Include="dbo\Tables\TBL_ENTOLLMENT.sql" />
   </ItemGroup>
 </Project>
