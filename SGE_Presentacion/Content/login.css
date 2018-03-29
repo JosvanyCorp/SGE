@@ -1,0 +1,29 @@
+﻿body, html, .contenedor, section, article
+{
+    height: 100%
+}
+
+
+.contenedor {
+    width: 100%;
+    background-image: url('../img/blanco.png'), radial-gradient(circle, #1082e2, #0f2a9d);
+}
+
+section {
+    margin: auto;
+    width: 95%;
+    border: double black;
+}
+
+article
+{
+    border: double red;
+    margin:auto;
+    float:left;
+    width:50%;
+}
+
+
+.efecto {
+    transform: rotate(8deg) scale(1.2);
+}
