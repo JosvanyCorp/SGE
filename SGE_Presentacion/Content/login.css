@@ -1,29 +1,54 @@
 ﻿body, html, .contenedor, section, article
 {
-    height: 100%
+    height: 100%;
 }
 
 
 .contenedor {
     width: 100%;
-    background-image: url('../img/blanco.png'), radial-gradient(circle, #1082e2, #0f2a9d);
+    /*background-image: url('../img/blanco.png'), radial-gradient(circle, rgb(37, 104, 177),black);*/
+    background-image: url('../img/blanco.png'), radial-gradient(circle, black,black);
 }
 
 section {
-    margin: auto;
+    margin: 0 auto;
     width: 95%;
-    border: double black;
+    display:block;
 }
 
 article
 {
-    border: double red;
     margin:auto;
     float:left;
     width:50%;
+    display:block;
+}
+section article .pos {
+    margin: 0 auto;
+    font-size: 10em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10%;
+    margin-left: -10%;
+    transform: rotate(-45deg);
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 1px 0 black,
+                 0 2px 0 black, 
+                 0 3px 0 blue, 
+                 0 4px 0 blue,
+                 0 5px 0 silver,
+                 0 6px 10px rgba(0, 0, 0, .1),
+                 0 0 20px rgba(0, 0, 0, .1),
+                 0 1px 43px rgba(0, 0, 0, .3),
+                 0 3px 60px rgba(0, 0, 0, .2),
+                 0 5px 10px rgba(0, 0, 0, .25),
+                 0 10px 10px rgba(0, 0, 0, .2),
+                 0 50px 50px rgba(0, 0, 0, .15);
 }
 
-
-.efecto {
+/*.efecto {
     transform: rotate(8deg) scale(1.2);
-}
+}*/

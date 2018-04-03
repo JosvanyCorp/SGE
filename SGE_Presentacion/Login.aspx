@@ -16,11 +16,19 @@
 <body>
     <div class="contenedor">
         <section>
-            <article>
-                <h1 class="efecto">SEG</h1>
+            <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                <h1 class="pos">SEG</h1>
+
             </article>
-            <article>
-                <h1>fdsafsa</h1>
+            <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <form class="jumbotron">
+                    <input type="text" class="form-control" placeholder="Nombre" />
+
+                    <input type="email" class="form-control" placeholder="Email" />
+
+                    <input type="button" class="btn btn-default" value="Enviar" />
+                </form>
             </article>
         </section>
     </div>
