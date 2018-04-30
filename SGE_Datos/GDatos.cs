@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace SGE_Conexion
+namespace SGE_Datos
 {
     public abstract class GDatos 
     {

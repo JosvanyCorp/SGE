@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
@@ -40,21 +40,16 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <span class="navbar-brand tresd" runat="server">SGE</span>
+                    <span class="navbar-brand" runat="server">SGE</span>
                 </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav" style="float:right;">
-                        <li><a runat="server" href="~/">Inicio</a></li>
-                        <li><a runat="server" href="~/About">Acerca de</a></li>
-                        <li><a runat="server" href="~/Contact">Contacto</a></li>
+                <div class="navbar-collapse collapse" id="navbarNav">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item active"><a runat="server" class="nav-link" href="~/">Inicio</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link" href="~/About">Acerca de</a></li>
+                        <li class="nav-item"><a runat="server" class="nav-link" href="~/Contact">Contacto</a></li>
                     </ul>
                 </div>
             </div>

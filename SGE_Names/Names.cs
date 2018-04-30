@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace SGE_Names
 {
-    public class Class1
+    public class Names
     {
+        
+    }
+
+    public class NamesProcedures
+    {
+        public static string InsertUser = "SP_IM_USER";
     }
 }
