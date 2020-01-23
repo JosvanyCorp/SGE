@@ -14,5 +14,11 @@ namespace SGE_Names
     public class NamesProcedures
     {
         public static string InsertUser = "SP_IM_USER";
+        public static string ListarTables = "SP_LISTAR";
+    }
+
+    public class NamesTables
+    {
+        public static string TableUser = "TBL_USER";
     }
 }
