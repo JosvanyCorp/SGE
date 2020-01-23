@@ -166,7 +166,6 @@
     <Build Include="dbo\Tables\TBL_ENTOLLMENT.sql" />
     <Build Include="dbo\Tables\TBL_ROLL.sql" />
     <Build Include="dbo\Tables\TBL_RELATIONSHIP_USER_ROLL.sql" />
-    <Build Include="dbo\Stored Procedures\SP_LISTAR.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SGE_DB.publish.xml" />
